@@ -15,14 +15,14 @@ class LoginController extends Controller{
         $this->display();
     }
 
-    public function check(){
+    public function check() {
         $username = $_POST['username'];
         $password = $_POST['password'];
-        if (!trim($username)){
-            show(0,'用户名不能为空');
+        if(!trim($username)) {
+            return show(0,'LoginController---用户名不能为空');
         }
-        if (!trim($password)){
-            show(0,'密码不能为空');
+        if(!trim($password)) {
+            return show(0,'LoginController---密码不能为空');
         }
 
     }

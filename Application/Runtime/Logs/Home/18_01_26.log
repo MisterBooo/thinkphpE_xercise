@@ -7,3 +7,14 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
 ERR: 无法加载控制器:Login
 
+[ 2018-01-26T10:57:53+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
